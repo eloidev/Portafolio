@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19cf57de.css",
+    "main.js": "/static/js/main.1077736c.js",
+    "static/media/banderaes.svg": "/static/media/banderaes.471f5635d3b5e7459f4fb550f23c308e.svg",
+    "static/media/pokedex.png": "/static/media/pokedex.190e06bc17696e82db7b.png",
+    "static/media/logo.png": "/static/media/logo.9d025abccde43c3252fc.png",
+    "static/media/countclicker.png": "/static/media/countclicker.4474293315d383c60c77.png",
+    "static/media/calculadora.png": "/static/media/calculadora.d63fa17ce67779a5b387.png",
+    "static/media/banderaen.svg": "/static/media/banderaen.b7bb1f59404d832c0f66a5ac87729bd7.svg",
+    "index.html": "/index.html",
+    "static/media/banderacat.svg": "/static/media/banderacat.90554f2055fe712fc219a38c0bf35ff6.svg",
+    "main.19cf57de.css.map": "/static/css/main.19cf57de.css.map",
+    "main.1077736c.js.map": "/static/js/main.1077736c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19cf57de.css",
+    "static/js/main.1077736c.js"
+  ]
+}

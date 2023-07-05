@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1574cac5.css",
+    "main.js": "/static/js/main.0ccc62b2.js",
+    "static/media/primera_web.png": "/static/media/primera_web.514f6b0d1dc7542e55e1.png",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.ded012067842014a5a0b3aac825bb76d.svg",
+    "main.1574cac5.css.map": "/static/css/main.1574cac5.css.map",
+    "main.0ccc62b2.js.map": "/static/js/main.0ccc62b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1574cac5.css",
+    "static/js/main.0ccc62b2.js"
+  ]
+}

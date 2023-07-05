@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  width: 70%;
+}
+
+.alerta-desarrollo {
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 15px;
+  padding: 15px;
+  color: black;
+  right: 0;
+  border-radius: 5px;
+  background-color: yellow;
+  bottom: 0;
+}
+
+.alerta-desarrollo--false {
+  display: none;
+}
+
+.alerta-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.alerta-close-button {
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.alerta-close-button:hover {
+  color: red;
+}
+
+.overflow--hiden {
+  overflow: hidden;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode::-webkit-scrollbar-thumb {
+  background-color: white;
+  border: solid black 4px;
+}
+
+.dark-mode .aboutme-container {
+  border: 2px solid rgb(167 62 249);
+}
+
+.dark-mode .card-img {
+  border: 2px solid rgb(167 62 249);
+}
+
+.dark-mode .inicio-boton {
+  color: white;
+  transition: all 0.5s;
+  background-color: transparent;
+  border: solid rgb(167 62 249);
+}
+
+.dark-mode .inicio-boton:hover {
+  color: black;
+  background: white;
+  border: 2px solid rgb(0 0 0);
+}
+
+.dark-mode nav a {
+  color: white;
+}
+
+.dark-mode .idioma {
+  color: white;
+}
+
+.dark-mode .linea {
+  background-color: white;
+}
+
+.dark-mode .dark-mod-boton,
+.dark-mode .boton-idioma {
+  color: white;
+}
+
+.dark-mode .show-nav {
+  background-color: black;
+}
+
+.dark-mode .footer-boton {
+  background-color: #252525;
+  color: white;
+}
+
+/* Animación para el botón de Descargar CV */
+@keyframes slide-in {
+  from {
+    transform: translateX(-75%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-75%);
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    width: 90%;
+  }
+}

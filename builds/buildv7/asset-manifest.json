@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e6c17e0.css",
+    "main.js": "/static/js/main.bac9c9b3.js",
+    "static/media/banderaes.svg": "/static/media/banderaes.471f5635d3b5e7459f4fb550f23c308e.svg",
+    "static/media/swapper.webp": "/static/media/swapper.8903653c2a2ef01ea747.webp",
+    "static/media/calculadora.webp": "/static/media/calculadora.96987b67dbb3b6fb99ff.webp",
+    "static/media/countclicker.webp": "/static/media/countclicker.786e5e24cbe9bc8c95ee.webp",
+    "static/media/banderaen.svg": "/static/media/banderaen.b7bb1f59404d832c0f66a5ac87729bd7.svg",
+    "static/media/logo.webp": "/static/media/logo.46823f0f53b1e6ca36d0.webp",
+    "index.html": "/index.html",
+    "static/media/banderacat.svg": "/static/media/banderacat.90554f2055fe712fc219a38c0bf35ff6.svg",
+    "main.9e6c17e0.css.map": "/static/css/main.9e6c17e0.css.map",
+    "main.bac9c9b3.js.map": "/static/js/main.bac9c9b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6c17e0.css",
+    "static/js/main.bac9c9b3.js"
+  ]
+}

@@ -1,0 +1,139 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.card-titulo {
+  font-size: 30px;
+}
+
+.card-img-container {
+  position: relative;
+  width: 45%;
+  height: 100%;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 2px #2dc4e7;
+  transition: all 0.3s;
+}
+
+.card-img:hover {
+  filter: brightness(0.5);
+}
+
+.card-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.46, -0.86, 0.3, 1.48);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card-view-button,
+.card-code-button {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  border-radius: 5px;
+  border: solid black 3px;
+  font-size: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.card-view-button:hover {
+  background-color: black;
+  color: rgb(0, 255, 0);
+}
+
+.card-code-button:hover {
+  background-color: black;
+  color: rgb(255, 0, 0);
+}
+
+.card-buttons--visible {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card_technology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.borde {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.naranja {
+  border: 2px solid rgb(221, 75, 37);
+}
+
+.azul-css {
+  border: 2px solid rgb(34, 119, 255);
+}
+
+.azul-react {
+  border: 2px solid rgb(12, 159, 203);
+}
+
+.csharp {
+  border: 2px solid rgb(23,134,0);
+}
+
+.amarillo {
+  border: 2px solid rgb(232, 184, 36);
+}
+
+@media screen and (max-width: 1000px) {
+  .cards {
+    text-align: center;
+  }
+
+  .card {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .card-img-container {
+    width: 60%;
+  }
+
+  .card-text {
+    align-items: center;
+    margin-top: 35px;
+  }
+}

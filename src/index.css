@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Shantell+Sans:ital,wght@0,300;1,400&display=swap");
+
+html,
+body {
+  scroll-behavior: smooth;
+  transition: background-color 0.5s cubic-bezier(0.43, 0.91, 1, 1),
+    color 0.5s cubic-bezier(0.43, 0.91, 1, 1);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 10px;
+  border: solid white 4px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.section-titulo {
+  font-size: 35px;
+  font-family: "Shantell Sans";
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    border-bottom: none;
+  }
+}
