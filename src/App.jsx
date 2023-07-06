@@ -5,15 +5,13 @@ import AboutMe from "./pages/aboutme/aboutme";
 import Proyectos from "./pages/proyectos/proyectos";
 import Footer from "./pages/footer/footer";
 import idiomas from "./idiomas";
-import { CgDanger, CgCloseR } from "react-icons/cg";
 import "./App.css";
 
 function App() {
   const [idioma, setIdioma] = useState(() => {
     const idiomaGuardado = localStorage.getItem("Idioma");
-    return idiomaGuardado || "es"; // Poner idioma guardado o si no idioma español como predeterminado
+    return idiomaGuardado || "es";
   });
-  const [AlertaDesarrollo, setCerrarAlertaDesarrollo] = useState(true);
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("ModoOscuro") === "true" ? true : false
   );
@@ -34,10 +32,6 @@ function App() {
     localStorage.setItem("ModoOscuro", modo);
   };
 
-  const cerrarAlertaDesarrollo = () => {
-    setCerrarAlertaDesarrollo(false);
-  };
-
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark-mode");
@@ -48,20 +42,6 @@ function App() {
 
   return (
     <main className="App">
-      <div
-        className={
-          AlertaDesarrollo ? "alerta-desarrollo" : "alerta-desarrollo--false"
-        }
-      >
-        <div className="alerta-container">
-          <CgDanger />
-          <p>{txtIdioma.otros.alertadesarrollo}</p>
-          <CgCloseR
-            className="alerta-close-button"
-            onClick={cerrarAlertaDesarrollo}
-          />
-        </div>
-      </div>
       <Header
         cambiarModo={cambiarModo}
         darkMode={darkMode}

@@ -67,7 +67,7 @@
 .dark-mode .inicio-boton:hover {
   color: black;
   background: white;
-  border: 2px solid rgb(0 0 0);
+  border: solid rgb(0 0 0);
 }
 
 .dark-mode nav a {
