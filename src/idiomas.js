@@ -17,7 +17,7 @@ const idiomas = {
       parrafo1: (
         <p>
           ¡Hola! Mi nombre es <TextoDeColor text="Eloi" txtColor="red" />, soy
-          un niño de <TextoDeColor text="13 " txtColor="green" />
+          un niño de <TextoDeColor text="14 " txtColor="green" />
           años. Me gusta mucho el desarrollo web y el desarrollo de videojuegos.
           Estoy aprendiendo mucho este año, sobre nuevas cosas enfocadas al
           desarrollo web. Actualmente, tengo conocimientos en{" "}
@@ -102,7 +102,7 @@ const idiomas = {
       parrafo1: (
         <p>
           Hi! I'm <TextoDeColor text="Eloi" txtColor="red" />, a{" "}
-          <TextoDeColor text="13" txtColor="green" />
+          <TextoDeColor text="14" txtColor="green" />
           -year-old boy. I really enjoy web development and game development.
           This year, I'm focusing on learning new things in web development and
           expanding my knowledge. Currently, I have knowledge in{" "}
@@ -186,7 +186,7 @@ const idiomas = {
       parrafo1: (
         <p>
           Hola! El meu nom és <TextoDeColor text="Eloi" txtColor="red" />, soc
-          un nen de <TextoDeColor text="13 " txtColor="green" />
+          un nen de <TextoDeColor text="14 " txtColor="green" />
           anys. M'agrada molt el desenvolupament web i el desenvolupament de
           videojocs. Estic aprenent molt aquest any, sobre noves coses enfocades
           al desenvolupament web. Actualment, tinc coneixements a{" "}
